@@ -4,9 +4,9 @@ import { IconContext } from "react-icons";
 import { IoIosNotifications, IoIosSettings } from "react-icons/io";
 const NavBar = () => {
     return (
-        <main className="w-full  min-h-[80px] flex justify-center items-center">
+        <main className=" bg-white w-full  min-h-[80px] flex justify-center items-center">
             <div className="max-w-screen-xl  w-[95%] flex justify-between items-center ">
-                <section className="  flex justify-center  items-center gap-4 ">
+                <section className="  flex justify-center items-center gap-4 ">
                     <h1 className="text-xl font-bold text-[#3563E9]">MORENT</h1>
                     <div className="border border-[#C3D4E966] rounded-[70px] px-3 py-1  flex items-center justify-center">
                         <IconContext.Provider value={{ color: "#596780",size:"20px" }}>
